@@ -1,0 +1,12 @@
+version: "3"
+services:
+  backstop-server:
+    build: ./
+    image: backstop-env
+    container_name: backstop-app
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./src:/src
+    command: "npm run serve"
+    
