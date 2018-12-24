@@ -25,4 +25,8 @@ ADD ./src/backstop.json /src
 ADD ./src/public /src/public
 ADD ./src/serve.js /src
 
+RUN ["npm", "cache", "clear", "--force"]
+
+RUN ["npm", "install", "phantomjs-prebuilt"]
+
 RUN ["npm", "install"]

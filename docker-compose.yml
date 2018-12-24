@@ -8,5 +8,6 @@ services:
       - "3000:3000"
     volumes:
       - ./src:/src
+      - ./src/node_modules
     command: "npm run serve"
     
