@@ -7,7 +7,7 @@
       "height": 480
     },
     {
-      "label": "tablet",
+      "label": "web",
       "width": 1024,
       "height": 768
     }
@@ -17,41 +17,11 @@
   "scenarios": [
     {
       "label": "index",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "http://localhost:3000/index.html",
-      "referenceUrl": "",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
+      "url": "http://localhost:3000/index.html"
     },
     {
       "label": "test",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "http://localhost:3000/test.html",
-      "referenceUrl": "",
-      "readyEvent": "",
-      "readySelector": "",
-      "delay": 0,
-      "hideSelectors": [],
-      "removeSelectors": [],
-      "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
-      "selectors": [],
-      "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
+      "url": "http://localhost:3000/test.html"
     }
   ],
   "paths": {
