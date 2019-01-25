@@ -8,6 +8,8 @@ RUN export LANG=ja_JP.UTF-8
 RUN export LC_ALL=ja_JP.UTF-8
 RUN export LC_CTYPE=ja_JP.UTF-8
 
+RUN apt-get update
+
 RUN apt-get install -y chromium-browser chromium-browser-l10n
 RUN apt-get install -y fonts-takao fonts-ipafont fonts-ipaexfont
 
