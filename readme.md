@@ -2,9 +2,9 @@
 Work [BackstopJS](https://github.com/garris/BackstopJS) on ubuntu in docker
 
 ## enviroment
-Docker Engine - 18.09.1
-Ubuntu - 16.04
-Nodejs - 10.x
+Docker Engine - 18.09.1  
+Ubuntu - 16.04  
+Nodejs - 10.x  
 
 ## docker command
 ```shell
@@ -41,5 +41,6 @@ $ npx backstop reference
 // compare snapshots
 $ npx backstop test
 
-// 
+// approve
+$ npx backstop approve
 ```
